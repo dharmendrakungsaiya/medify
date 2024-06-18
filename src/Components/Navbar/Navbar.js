@@ -10,7 +10,6 @@ const Navbar = () => {
             <div className="Navigation">
       <NavLink to="/" exact className="logo">
         <img src={logoImage} alt="LogoIcon" />
-        {/* <span>Medify</span> */}
       </NavLink>
       <nav className="Navbar">
         <li className="Navbar-items">

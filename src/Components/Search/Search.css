@@ -1,0 +1,119 @@
+.container-search{
+
+border: 1px solid #F0F0F0;
+padding: 3%;
+z-index: 10;
+background: #FFFFFF;
+    padding: 3%;
+    width: 80%;
+    /* margin: -25% 7% 0 7%; */
+    position: absolute;
+    z-index: 10;
+    border-radius: 15px;
+    /* width: 1170px; */
+height: 350px;
+bottom: -90%;
+left: 130px;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 5% 0 5%;
+
+}
+
+.input-field1 {
+    /* height: 50px;
+    border: 1px solid #F0F0F0;
+    background-color: black;
+    border-radius: 8px;
+    margin: 3% 3%;
+    display: flex; */
+    /* width: 200px; */
+/* height: 50px;
+top: 584px;
+left: 339px;
+gap: 0px;
+border: 1px; */
+
+}
+
+.input-container {
+    position: relative;
+    /* width: fit-content; */
+    width: 285px;
+    margin-bottom: 10px; /* space between multiple inputs */
+  }
+  
+  .input-field {
+    height: 50px;
+    padding-left: 40px; /* padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9CA3AF;
+  }
+  .search-icon1{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+  }
+  .searchBtn{
+    width: 121px;
+height: 50px;
+top: 584px;
+left: 1149px;
+padding-left: 40px;
+
+  }
+
+  .title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+  }
+
+  .search-category{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoryItems {
+  min-width: 175px;
+  min-height: 125px;
+  padding: 17px;
+  background-color: #FAFBFE;
+  border: 1px solid #FAFBFE;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ABB6C7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoryItems:hover{
+  color: #2AA7FF;
+  font-weight: 600;
+  background: #2AA7FF14;
+  border: 1px solid #2AA7FF
+}

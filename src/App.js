@@ -1,24 +1,28 @@
 
 import './App.css';
+import Carousel from './Components/Carousel/Carousel';
 import Headline from './Components/Headline/Headline';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
+  
+    
     <div>
-      <Headline/>
-      <Router>
+    <Headline/>
+      <BrowserRouter>
       <Navbar/>
-        <Routes>
-          <Route ></Route>
-      
+      <Routes>
+       
       </Routes>
-      
-      </Router>
-      {/* <Hero/> */}
+      </BrowserRouter>
+      <Hero/>
+      <Carousel/>
     </div>
+  
   );
 }
 

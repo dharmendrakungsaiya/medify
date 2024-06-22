@@ -1,0 +1,66 @@
+.headingans {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    margin: 35px 0px 5px 0px;
+    color: #2AA7FF;
+}
+
+.frequent {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: #1B3C74;
+    margin: 5px 0px 35px 0px;
+}
+
+.imgduo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+}
+
+.accord>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 241.93px;
+    height: 104.59px; */
+    top: 301px;
+    left: -85px;
+    border-radius: 8px 0px 0px 0px;
+
+
+}
+
+.accord>div>p {
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: #1B3C74;
+}
+
+.likes {
+    position: absolute;
+    left: 70px;
+    bottom: 100px;
+}
+
+.love {
+    position: absolute;
+    left: 585px;
+    /* top: 100px; */
+    width: 100px;
+    height: 100px;
+    top: 126.82px;
+    padding: 19.84px 0px 20.16px 0px;
+    border-radius: 40px 0px 0px 0px;
+}

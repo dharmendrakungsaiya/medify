@@ -1,0 +1,84 @@
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(#E7F0FF, #E8F1FF);
+    padding-top: 40px;
+  }
+  
+  .download > div > h2 {
+    color: #1B3C74;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    width: 338px;
+    margin: 30px 0px;
+  }
+  
+  .download > div > h2 > span {
+    color: #2AA7FF;
+  }
+  
+  .download > div > p {
+    color: #414146;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  
+  .input-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    margin: 10px 0px;
+    border: 1px solid #F0F0F0;
+    background-color: #FAFBFE;
+    display: flex;
+    align-items: center;
+    width: 390px;
+  }
+  
+  .input > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 49px;
+    border-right: 1px solid #414146;
+  }
+  .input > input {
+    height: 49px;
+    padding: 0px 20px;
+  }
+  
+  .Send-SMS {
+    background: #2AA7FF;
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 15px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+  
+  
+  .apple-google{
+      margin: 35px 0px;
+      display:flex ;
+      gap: 20px;
+      cursor: pointer;
+  }
+  
+  .apple-google > img{
+      width: 224px;
+      height: 69px;
+      cursor: pointer;
+  }

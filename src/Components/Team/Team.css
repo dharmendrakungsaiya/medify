@@ -2,9 +2,6 @@
     padding: 50px 0px;
 }
 
-/* .team-sm{
-    display: none;
-  } */
 
 .team h1 {
     font-family: Poppins;
@@ -13,7 +10,6 @@
     line-height: 67px;
     text-align: center;
     color: #1B3C74;
-
 }
 
 
@@ -23,14 +19,11 @@
 }
 
 .team .profile {
-    /* height: 395px; */
     padding: 50px 17px 0px 17px;
     border-radius: 250px 250px 4px 4px;
     background: linear-gradient(#E1F3FF, #2AA7FF);
     border: 10px solid rgba(255, 255, 255, 1);
     box-shadow: 0px 15px 55px -10px rgba(0, 0, 0, 0.09);
-    /* border-bottom: none; */
-    /* width: 370px; */
     height: 380px;
     left: 185px;
 }

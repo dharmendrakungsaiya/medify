@@ -1,21 +1,17 @@
 .container-hero {
     display: flex;
-    padding: 0 5% 5% 5%; 
-    /* height: 90%; */
-    /* width: 1440px; */
-height: 832px;
-top: 40px;
-background: linear-gradient(#E7F0FF,#E8F1FF);
+    padding: 0 5% 5% 5%;
+    height: 832px;
+    top: 40px;
+    background: linear-gradient(#E7F0FF, #E8F1FF);
 
 }
 
 .DoctorsImg {
-    /* width: 100%;
-    height: 100%; */
     width: 643px;
-height: 735.94px;
-top: 82px;
-left: 697px;
+    height: 735.94px;
+    top: 82px;
+    left: 697px;
 
 }
 
@@ -25,64 +21,50 @@ left: 697px;
 }
 
 .heading {
-    /* font-weight: 500;
-    width: 640px;
-    height: 128px; */
-    /* font-size: 31px; */
     width: 663px;
-height: 207px;
-top: 180px;
-left: 135px;
+    height: 207px;
+    top: 180px;
+    left: 135px;
 
 }
 
-h4{
+h4 {
     font-family: Poppins;
-font-size: 31px;
-font-weight: 500;
-line-height: 68px;
-letter-spacing: 0.02em;
-text-align: left;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
-/* .heading>span {
+
+.span1 {
+    font-family: Poppins;
     font-size: 56px;
     font-weight: 700;
-} */
-
-.span1{
-    font-family: Poppins;
-font-size: 56px;
-font-weight: 700;
-line-height: 68px;
-letter-spacing: 0.02em;
-text-align: left;
-
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
 
-.span2{
+.span2 {
     font-family: Poppins;
-font-size: 56px;
-font-weight: 700;
-line-height: 68px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #2AA8FF;
-
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2AA8FF;
 }
 
 
 
-.description{
-    /* font-weight: 400;
+.description {
+    font-family: Poppins;
     font-size: 20px;
-    color: #5C6169;
-    margin: 0 0 23px 0; */
-    font-family: Poppins;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0.02em;
-text-align: left;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
 
 }
 
@@ -90,16 +72,16 @@ text-align: left;
     width: 50%;
 }
 
-button{
+button {
     width: Hug (177px)px;
-height: Hug (48px)px;
-top: 419px;
-left: 137px;
-padding: 12px 36px 12px 36px;
-gap: 10px;
-border-radius: 8px 0px 0px 0px;
-background-color: #2AA8FF;
-color: white;
-cursor: pointer;
+    height: Hug (48px)px;
+    top: 419px;
+    left: 137px;
+    padding: 12px 36px 12px 36px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    background-color: #2AA8FF;
+    color: white;
+    cursor: pointer;
 
 }

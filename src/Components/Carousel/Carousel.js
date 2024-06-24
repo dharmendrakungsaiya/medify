@@ -54,9 +54,6 @@ const Carousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={image1} alt="image1" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src={image2} alt="image2" />
         </SwiperSlide>
         <SwiperSlide>
@@ -67,6 +64,9 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={image1} alt="image1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={image2} alt="image2" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={image2} alt="image2" />

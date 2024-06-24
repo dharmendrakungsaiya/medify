@@ -30,22 +30,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 241.93px;
-    height: 104.59px; */
     top: 301px;
     left: -85px;
-    border-radius: 8px 0px 0px 0px;
-
-
+    border-radius: 8px;
 }
 
 .accord>div>p {
     font-family: Poppins;
-font-size: 18px;
-font-weight: 600;
-line-height: 30px;
-text-align: left;
-color: #1B3C74;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #1B3C74;
 }
 
 .likes {
@@ -57,10 +53,9 @@ color: #1B3C74;
 .love {
     position: absolute;
     left: 585px;
-    /* top: 100px; */
     width: 100px;
     height: 100px;
     top: 126.82px;
     padding: 19.84px 0px 20.16px 0px;
-    border-radius: 40px 0px 0px 0px;
+    border-radius: 40px;
 }

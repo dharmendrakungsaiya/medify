@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1% 5%;
-    background: linear-gradient(#E7F0FF,#E8F1FF);
+    background: linear-gradient(#E7F0FF, #E8F1FF);
 }
 
 .logo {
@@ -12,13 +12,6 @@
     display: flex;
 }
 
-/* .logo>span {
-    text-align: center;
-    font-weight: 700;
-    font-size: 18px;
-    color: #2AA8FF;
-    margin: 0 4px;
-} */
 
 .Navbar {
     list-style: none;
@@ -26,22 +19,22 @@
     justify-content: space-between;
     height: 40px;
     min-width: 60vw;
-    
+
 }
 
 .Navbar-items {
     font-size: 14px;
-    font-family: 'Poppins';
+    font-family: Poppins;
 }
 
 .Navbar-items>a {
     text-decoration: none;
     line-height: 40px;
-    color: black;
-    
+    color: #102851;
+
 }
 
-button{
+button {
     background-color: #2AA8FF;
     border-radius: 8px;
     color: white;

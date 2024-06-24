@@ -1,0 +1,150 @@
+.center {
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin: 20px 0px;
+  }
+  
+  .upper {
+    width: 786px;
+    height: 269px;
+    display: flex;
+    gap: 25px;
+    padding: 24px;
+  }
+  
+  .middlecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .middlecontent > h3 {
+    color: #2AA7FF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 15px 0px;
+  }
+  .middlecontent > h6 {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+  }
+  
+  .middlecontent > p {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+  
+  .middlecontent .free-span {
+    color: #01A400;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+  }
+  
+  .middlecontent .price-span {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    margin: 0px 10px;
+  }
+  
+  .middlecontent .fee-span {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+  
+  .like-btn {
+    border-top: 1px solid #FFFFFF;
+    width: 307.55px;
+    height: 39.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .like-btn > img {
+    width: 44.08px;
+    height: 22.5px;
+  }
+  
+  .rightcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .rightcontent > p {
+    color: #01A400;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .rightcontent > button {
+    background-color: #2AA7FF;
+    width: 212px;
+    height: 40px;
+    padding: 9.62px 28.55px 9.38px 29.45px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .lower {
+    width: 786px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 24px 24px;
+  }
+  
+  .rightcontent-mybookings {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  
+  .rightcontent-mybookings .time {
+    width: 84px;
+    height: 31.59px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #2AA7FF;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: #2AA7FF;
+  }
+  .rightcontent-mybookings .date {
+    width: 128px;
+    height: 32px;
+    padding: 7px;
+    border-radius: 3px;
+  
+    border: 1px solid #01A400;
+    color: #01A400;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    text-align: center;
+  }

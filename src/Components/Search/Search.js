@@ -27,9 +27,12 @@ const Search = () => {
           console.error("Error fetching states:", error);
         }
       };
-  
-      fetchStates();
+        fetchStates();
     }, []);
+
+
+
+
   
     const handleStateChange = async (e) => {
       const state = e.target.value;
@@ -43,6 +46,8 @@ const Search = () => {
         console.error("Error fetching cities:", error);
       }
     };
+
+    
   
     const handleCityChange = (e) => {
       setSelectedCity(e.target.value);

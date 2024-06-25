@@ -4,7 +4,6 @@ import searchgrey from "../../Images/searchicon.png";
 import searchwhite from "../../Images/searchiconwhite.png";
 import verifiedtick from "../../Images/verifiedtick.png";
 import oralhealth from "../../Images/oralhealth.png";
-import Navbar from "../Navbar/Navbar";
 import HospitalCenter from "../Hospitalcenter/Hospitalcenter";
 
 const Findcenter = ({selectedState,
@@ -22,7 +21,6 @@ const Findcenter = ({selectedState,
 
     return(
         <>
-        <Navbar/>
          <div className="blueSection"></div>
 
 <div className="floating-form">

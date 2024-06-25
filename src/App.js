@@ -15,7 +15,6 @@ import Download from './Components/Download/Download';
 import Footer from './Components/Footer/Footer';
 import Findcenter from './Components/Findcenter/Findcenter';
 import React, { useState, useEffect } from "react";
-import MyBookings from './Components/Mybookings/Mybookings';
 import axios from "axios";
 
 const initialstate = [
@@ -187,12 +186,6 @@ function App() {
                 availableSlots={availableSlots}
                 setAvailableSlots={setAvailableSlots}
               />
-            }
-          />
-          <Route
-            path="/myBookings"
-            element={
-              <MyBookings appointments={appointments} />
             }
           />
         </Routes>
